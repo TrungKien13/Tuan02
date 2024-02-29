@@ -29,13 +29,10 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        // Tạo đối tượng car1
         Car car1 = new Car("Toyota", "Camry", 2020);
 
-        // Tạo đối tượng car2
         Car car2 = new Car("Honda", "Civic", 2018);
 
-        // In thông tin của car1 và car2
         System.out.println("Car 1: Brand = " + car1.getBrand() + ", Model = " + car1.getModel() + ", Year = " + car1.getYear());
         System.out.println("Car 2: Brand = " + car2.getBrand() + ", Model = " + car2.getModel() + ", Year = " + car2.getYear());
     }
